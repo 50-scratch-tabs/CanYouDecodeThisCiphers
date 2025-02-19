@@ -49,5 +49,5 @@ jobs:
         with:
           force: true
           branch: gh-pages
-          directory: ./
+          directory: ./CanYouDecodeThisEngine/gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
