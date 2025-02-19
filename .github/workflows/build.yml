@@ -38,5 +38,5 @@ jobs:
         with:
           force: true
           branch: gh-pages
-          directory: ./build
+          directory: $GITHUB_WORKSPACE/build
           github_token: ${{ secrets.GITHUB_TOKEN }}
