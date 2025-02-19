@@ -31,9 +31,12 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd $GITHUB_WORKSPACE
-          python3 ./build.py
+          git clone https://github.com/50-scratch-tabs/CanYouDecodeThisEngine.git
+          cp ciphers.txt CanYouDecodeThisEngine
+          cd CanYouDecodeThisEngine
+          python3 -m CanYouDecodeThis.gen_html
           git clone https://github.com/50-scratch-tabs/CanYouDecodeThisCiphers.git --branch gh-pages --single-branch gh-pages
-          cp -r CanYouDecodeThisEngine/build/html/* gh-pages/
+          cp -r build/html/* gh-pages/
           cd gh-pages
           touch .nojekyll
           git config --local user.email "action@github.com"
