@@ -42,7 +42,7 @@ ciphertext:
 |[empty]
 |[empty]
 |[empty]
-|[empty]
+|[empty],
 |[empty]
 |[empty]
 |[empty]
@@ -242,3 +242,36 @@ solve date: 2/17/25
 solution:
 |Any hex editor will suffice
 solve-link: https://scratch.mit.edu/discuss/post/8402934/
+
+=====
+ciphertext:
+|# Oh no! Whoever sysadmin messed with the hosts file
+|# forgot to put the actual host names after the IPs...
+|# Perhaps somebody can do a reverse search on these?
+|# --hchild
+|
+|57.144.100.34
+|44.240.158.19
+|151.101.66.167
+|151.101.65.224
+|172.64.146.247
+|18.244.51.38
+|44.205.144.109
+|104.19.147.91
+|104.16.25.14
+|172.64.147.37
+|207.241.234.205
+|106.10.248.151
+|13.107.137.11
+|104.16.133.229
+|40.99.33.178
+|13.107.42.14
+creator: gilbert_given_189
+creation-link: https://scratch.mit.edu/discuss/post/8407158/
+creation-date: 2/19/25
+description:
+|Hale decided to look at /etc/hosts and found this
+solver:
+solve date:
+solution:
+solve-link:
